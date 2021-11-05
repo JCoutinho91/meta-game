@@ -1,7 +1,7 @@
 class Enemy {
     constructor(x,y,radius,color, velocity){
         this.enemyImg = new Image()
-        this.enemyImg.src = "fblogo.png"
+        this.enemyImg.src = "./fblogo.png"
         this.x= x
         this.y= y
         this.radius = radius

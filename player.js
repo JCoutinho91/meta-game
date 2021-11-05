@@ -11,7 +11,7 @@ let gameoverScreen = document.querySelector("#gameover-screen");
 let startBtn = document.querySelector("#start-btn");
 let restartBtn = document.querySelector("#restart-btn");
 let tryAgain = document.querySelector("#winnerwinner");
-const audio = new Audio("metamusic.mp3");
+const audio = new Audio("./metamusic.mp3");
 
 class Player {
     constructor(x,y,radius,color){
