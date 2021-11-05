@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Game</title>
+    <link rel="stylesheet" href="styles.css".css">
+</head>
+<body>
+    <div id="start-screen" class="container">
+        <img src="imgs/TheStartScreen.png" width="800" alt="logo1">
+      <button id="start-btn">Start!</button>
+      </div>
+    <div id="Score"><span>Cambridge Analytica Leaks: <span id="scoreValue">0</span></span></div>
+    <div id="gameover-screen" class="container">
+        <div id="endmessage">
+          <span>
+          You Leaked
+          <span id="finalscore">
+            0
+          </span>
+          <span>Files!</span>
+        </span>
+      </div>
+        <img src="imgs/TheGameOver.png" width="800" alt="logo2">
+        <button id="restart-btn">Play Again!</button>
+      </div>
+    </div>
+
+    <div id="WinnerMessage" class="container">
+      <span id="endtext"> You Leaked 50 Files!<span>You Won!!!</span></span>
+    <img src="WINNERGAME.jpg" width="1000" alt="logo3">
+    <button id="winnerwinner">Try Again</button>
+    <span id="nextLevel"> Can you go faster?<span></span>
+    </div>
+  </div>
+    <canvas id="my-canvas"></canvas>
+
+
+    <script src="player.js"></script>
+    <script src="projectiles.js"></script>
+    <script src="enemy.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
